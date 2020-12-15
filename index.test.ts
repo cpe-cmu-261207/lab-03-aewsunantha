@@ -2,6 +2,8 @@ import { map, reduce, filter, sum } from './index'
 
 test('adds testing', () => {
   expect(sum(1, 2)).toBe(3);
+  expect(sum(4, 2)).toBe(6);
+
 });
 
 test('map testing', () => {
